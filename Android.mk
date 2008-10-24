@@ -18,6 +18,11 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/trout-keypad-qwertz.kl:system/usr/keylayout/trout-keypad-qwertz.kl \
 	$(LOCAL_PATH)/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl
 
+# default apns list
+#
+PRODUCT_COPY_FILES += \
+	development/data/etc/apns-conf_sdk.xml:system/etc/apns-conf.xml
+
 # keyboard maps
 #
 include $(CLEAR_VARS)
