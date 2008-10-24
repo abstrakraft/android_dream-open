@@ -5,6 +5,9 @@ You can configure to build for HTC Dream (aka T-Mobile G1) by putting
 the following in your buildspec.mk file at the root of the source tree:
 
 TARGET_PRODUCT := htc_dream
+
+If you wish to override the included prebuilt kernel image, add:
+
 TARGET_PREBUILD_KERNEL := /path/to/kernel/arch/arm/boot/zImage
 
 ---- proprietary files ----
