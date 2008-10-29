@@ -44,6 +44,7 @@ proprietary := $(LOCAL_PATH)/proprietary
 
 PRODUCT_COPY_FILES += \
 	$(proprietary)/libhtc_ril.so:system/lib/libhtc_ril.so \
+	$(proprietary)/libaudioeq.so:system/lib/libaudioeq.so \
 	$(proprietary)/akmd:system/bin/akmd \
 	$(proprietary)/AudioFilter.csv:system/etc/AudioFilter.csv
 

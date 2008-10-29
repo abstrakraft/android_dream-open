@@ -7,7 +7,7 @@ TARGET_NO_BOOTLOADER := true
 #
 TARGET_BOOTLOADER_BOARD_NAME := trout
 
-BOARD_USES_GENERIC_AUDIO := true
+# BOARD_USES_GENERIC_AUDIO := true
 
 # Flash Partition size limits for build sanity checking
 #
