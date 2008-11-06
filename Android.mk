@@ -38,6 +38,11 @@ include $(BUILD_KEY_CHAR_MAP)
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/init.trout.rc:root/init.trout.rc
 
+# prebuilt wifi driver
+#
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/wlan.ko:system/lib/modules/wlan.ko
+
 # htc proprietary code
 #
 proprietary := $(LOCAL_PATH)/proprietary
@@ -52,3 +57,6 @@ PRODUCT_COPY_FILES += \
 	$(proprietary)/AudioPara4.csv:system/etc/AudioPara4.csv \
 	$(proprietary)/gps.conf:system/etc/gps.conf
 
+PRODUCT_COPY_FILES += \
+	$(proprietary)/tiwlan.ini:system/etc/wifi/tiwlan.ini \
+	$(proprietary)/Fw1251r1c.bin:system/etc/wifi/Fw1251r1c.bin

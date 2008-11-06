@@ -6,6 +6,7 @@ TARGET_NO_BOOTLOADER := true
 # Kernel/Bootloader machine name
 #
 TARGET_BOOTLOADER_BOARD_NAME := trout
+HAVE_CUSTOM_WIFI_DRIVER_2 := true
 
 # BOARD_USES_GENERIC_AUDIO := true
 
