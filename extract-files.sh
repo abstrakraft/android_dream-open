@@ -7,6 +7,7 @@ adb pull /system/etc/gps.conf proprietary/gps.conf
 adb pull /system/bin/akmd proprietary/akmd
 adb pull /system/lib/libhtc_ril.so proprietary/libhtc_ril.so
 adb pull /system/lib/libaudioeq.so proprietary/libaudioeq.so
+adb pull /system/lib/libqcamera.so proprietary/libqcamera.so
 chmod 755 proprietary/akmd
 
 adb pull /system/etc/wifi/Fw1251r1c.bin proprietary/Fw1251r1c.bin
