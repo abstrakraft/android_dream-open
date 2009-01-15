@@ -53,7 +53,7 @@ service wpa_supplicant /system/bin/wpa_supplicant \
 # for the moment, while debugging dhcpcd, logwrapper is
 # used to get its output to appear in the logs. This will
 # be removed before shipping.
-service dhcpcd /system/bin/logwrapper dhcpcd -d -X tiwlan0
+service dhcpcd /system/bin/logwrapper dhcpcd -d tiwlan0
     disabled
     oneshot
 
