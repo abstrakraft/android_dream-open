@@ -51,6 +51,8 @@ PRODUCT_COPY_FILES += \
 	$(proprietary)/libhtc_ril.so:system/lib/libhtc_ril.so \
 	$(proprietary)/libaudioeq.so:system/lib/libaudioeq.so \
 	$(proprietary)/libqcamera.so:system/lib/libqcamera.so \
+	$(proprietary)/libgps.so:obj/lib/libgps.so \
+	$(proprietary)/libgps.so:system/lib/libgps.so \
 	$(proprietary)/akmd:system/bin/akmd \
 	$(proprietary)/AudioFilter.csv:system/etc/AudioFilter.csv
 
