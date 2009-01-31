@@ -53,6 +53,7 @@ PRODUCT_COPY_FILES += \
 	$(proprietary)/libqcamera.so:system/lib/libqcamera.so \
 	$(proprietary)/libgps.so:obj/lib/libgps.so \
 	$(proprietary)/libgps.so:system/lib/libgps.so \
+	$(proprietary)/brf6300.bin:system/etc/firmware/brf6300.bin \
 	$(proprietary)/akmd:system/bin/akmd \
 	$(proprietary)/AudioFilter.csv:system/etc/AudioFilter.csv
 

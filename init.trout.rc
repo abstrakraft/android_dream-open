@@ -23,10 +23,6 @@ on boot
     mkdir /data/misc/dhcp 0770 dhcp dhcp
     chown dhcp dhcp /data/misc/dhcp
 
-    #TODO: remove these two once we switch kernel to rfkill interface
-    chown bluetooth bluetooth /sys/module/board_trout/parameters/bluetooth_power_on
-    chmod 0660 /sys/module/board_trout/parameters/bluetooth_power_on
-
     # bluetooth power up/down interface
     chown bluetooth bluetooth /sys/class/rfkill/rfkill0/type
     chown bluetooth bluetooth /sys/class/rfkill/rfkill0/state
@@ -62,7 +58,7 @@ service dhcpcd /system/bin/logwrapper dhcpcd -d -X tiwlan0
     oneshot
 
 service hciattach /system/bin/hciattach \
-    -n -s 115200 /dev/ttyMSM0 texas 115200 flow
+    -n -s 115200 /dev/ttyHS0 texas 4000000 flow
     user bluetooth
     group bluetooth net_bt_admin
     disabled
