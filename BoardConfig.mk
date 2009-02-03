@@ -11,7 +11,7 @@ HAVE_CUSTOM_WIFI_DRIVER_2 := true
 
 # BOARD_USES_GENERIC_AUDIO := true
 
-BOARD_GPS_LIBRARIES := libgps
+BOARD_GPS_LIBRARIES := libgps librpc
 
 # Flash Partition size limits for build sanity checking
 #
