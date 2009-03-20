@@ -1,6 +1,7 @@
 
 # Dream uses HTC's bootloader, not one from source
 #
+TARGET_BOARD_PLATFORM := msm7k
 TARGET_NO_BOOTLOADER := true
 BOARD_WLAN_TI_STA_DK_ROOT := system/wlan/ti/sta_dk_4_0_4_32
 
