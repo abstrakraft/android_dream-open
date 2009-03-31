@@ -43,6 +43,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/wlan.ko:system/lib/modules/wlan.ko
 
+# vold.conf
+#
+#
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/vold.conf:system/etc/vold.conf
+
 # htc proprietary code
 #
 proprietary := $(LOCAL_PATH)/proprietary
