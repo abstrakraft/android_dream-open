@@ -59,6 +59,8 @@ PRODUCT_COPY_FILES += \
 	$(proprietary)/libqcamera.so:system/lib/libqcamera.so \
 	$(proprietary)/libgps.so:obj/lib/libgps.so \
 	$(proprietary)/libgps.so:system/lib/libgps.so \
+	$(proprietary)/libOmxCore.so:obj/lib/libOmxCore.so \
+	$(proprietary)/libOmxCore.so:system/lib/libOmxCore.so \
 	$(proprietary)/libhgl.so:system/lib/libhgl.so \
 	$(proprietary)/brf6300.bin:system/etc/firmware/brf6300.bin \
 	$(proprietary)/akmd:system/bin/akmd \

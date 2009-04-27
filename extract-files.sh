@@ -11,6 +11,7 @@ adb pull /system/lib/libaudioeq.so proprietary/libaudioeq.so
 adb pull /system/lib/libqcamera.so proprietary/libqcamera.so
 adb pull /system/lib/libgps.so proprietary/libgps.so
 adb pull /system/lib/libhgl.so proprietary/libhgl.so
+adb pull /system/lib/libOmxCore.so proprietary/libOmxCore.so
 chmod 755 proprietary/akmd
 
 adb pull /system/etc/wifi/Fw1251r1c.bin proprietary/Fw1251r1c.bin
