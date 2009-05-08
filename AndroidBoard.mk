@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
 	$(proprietary)/libOmxCore.so:obj/lib/libOmxCore.so \
 	$(proprietary)/libOmxCore.so:system/lib/libOmxCore.so \
 	$(proprietary)/libhgl.so:system/lib/libhgl.so \
+	$(proprietary)/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
 	$(proprietary)/brf6300.bin:system/etc/firmware/brf6300.bin \
 	$(proprietary)/akmd:system/bin/akmd \
 	$(proprietary)/AudioFilter.csv:system/etc/AudioFilter.csv
