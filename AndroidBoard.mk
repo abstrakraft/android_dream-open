@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
 # default apns list
 #
 PRODUCT_COPY_FILES += \
-	vendor/htc/dream/apns.xml:system/etc/apns-conf.xml
+	vendor/htc/dream-open/apns.xml:system/etc/apns-conf.xml
 
 # keyboard maps
 #
