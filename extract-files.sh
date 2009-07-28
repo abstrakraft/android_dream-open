@@ -31,4 +31,5 @@ adb pull /system/lib/hw/sensors.trout.so proprietary/sensors.trout.so
 adb pull /system/etc/wifi/Fw1251r1c.bin proprietary/Fw1251r1c.bin
 adb pull /system/etc/wifi/tiwlan.ini proprietary/tiwlan.ini
 
-
+adb pull /system/lib/hw/lights.msm7k.so proprietary/lights.msm7k.so
+adb pull /system/etc/AudioPreProcess.csv proprietary/AudioPreProcess.csv

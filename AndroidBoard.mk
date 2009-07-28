@@ -85,3 +85,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	$(proprietary)/tiwlan.ini:system/etc/wifi/tiwlan.ini \
 	$(proprietary)/Fw1251r1c.bin:system/etc/wifi/Fw1251r1c.bin
+
+PRODUCT_COPY_FILES += \
+	$(proprietary)/lights.msm7k.so:system/lib/hw/lights.msm7k.so \
+	$(proprietary)/AudioPreProcess.csv:system/etc/AudioPreProcess.csv
